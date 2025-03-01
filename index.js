@@ -10,7 +10,7 @@ const server = mc.createServer({
 	keepAlive: false,
 	version: '1.8.9'
 });
-const VERSION = '3.40.4';
+const VERSION = '3.41.5';
 const GAMEMODES = require('./miniblox/types/gamemodes.js');
 let connected, skipKick = Date.now();
 console.log('\x1b[33mMiniblox \u8f6c\u8bd1\u5c42\n\u7248\u672c: ' + VERSION + '\x1b[0m\n\n');
